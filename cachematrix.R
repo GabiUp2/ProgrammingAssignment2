@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## Creates object that holds matrix and allows of getting it and its inverse version
 
 makeCachedMatrix <- function(localOriginalMatrix = matrix()) {
    inversedMatrix <- NULL # Set initial slot for inverse matrix to Null as it was not yet calculated
@@ -19,7 +19,7 @@ makeCachedMatrix <- function(localOriginalMatrix = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Gets you an inverse of the matrix
 
 cacheSolve <- function(CachedMatrix, ...) {
    ## Return a matrix that is the inverse of 'x'
